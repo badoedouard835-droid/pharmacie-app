@@ -1,0 +1,243 @@
+/* ============================================ */
+/* ICÔNES EN CSS - Sans CDN */
+/* ============================================ */
+
+.icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Navigation & Menu */
+.nav-link::before,
+.dropdown-item::before {
+    margin-right: 0.5rem;
+}
+
+/* Dashboards & Stats */
+.stat-icon::before {
+    font-size: 2.5rem;
+}
+
+/* Action Buttons */
+.btn::before {
+    margin-right: 0.5rem;
+}
+
+/* Cards */
+.card-icon::before {
+    font-size: 1.5rem;
+}
+
+/* Tables */
+.table-icon::before {
+    margin-right: 0.3rem;
+}
+
+/* Forms */
+.form-icon::before {
+    margin-right: 0.5rem;
+}
+
+/* Badges */
+.badge-icon::before {
+    margin-right: 0.3rem;
+}
+
+/* Alerts */
+.alert-icon::before {
+    margin-right: 0.8rem;
+    font-size: 1.5rem;
+}
+
+/* ============================================ */
+/* COLLECTION D'ICÔNES UNICODE */
+/* ============================================ */
+
+/* Dashboard */
+.icon-dashboard::before { content: "📊"; }
+.icon-home::before { content: "🏠"; }
+.icon-menu::before { content: "☰"; }
+
+/* Produits */
+.icon-package::before { content: "📦"; }
+.icon-pill::before { content: "💊"; }
+.icon-capsule::before { content: "💉"; }
+.icon-add-product::before { content: "➕"; }
+
+/* Catégories */
+.icon-category::before { content: "📂"; }
+.icon-folder::before { content: "📁"; }
+.icon-tag::before { content: "🏷️"; }
+.icon-tags::before { content: "🏷️"; }
+
+/* Clients */
+.icon-users::before { content: "👥"; }
+.icon-user::before { content: "👤"; }
+.icon-person-add::before { content: "👤➕"; }
+.icon-user-circle::before { content: "👤"; }
+
+/* Ventes */
+.icon-cart::before { content: "🛒"; }
+.icon-shopping::before { content: "🛍️"; }
+.icon-invoice::before { content: "📄"; }
+.icon-receipt::before { content: "🧾"; }
+
+/* Pharmacies */
+.icon-pharmacy::before { content: "🏥"; }
+.icon-hospital::before { content: "🏥"; }
+.icon-building::before { content: "🏢"; }
+.icon-location::before { content: "📍"; }
+.icon-map::before { content: "🗺️"; }
+.icon-navigation::before { content: "🧭"; }
+
+/* Financier */
+.icon-money::before { content: "💰"; }
+.icon-cash::before { content: "💵"; }
+.icon-credit-card::before { content: "💳"; }
+.icon-dollar::before { content: "💲"; }
+
+/* Statut & Actions */
+.icon-check::before { content: "✓"; }
+.icon-close::before { content: "✕"; }
+.icon-edit::before { content: "✏️"; }
+.icon-delete::before { content: "🗑️"; }
+.icon-trash::before { content: "🗑️"; }
+.icon-view::before { content: "👁️"; }
+.icon-eye::before { content: "👁️"; }
+.icon-hide::before { content: "🙈"; }
+
+/* Temps & Date */
+.icon-calendar::before { content: "📅"; }
+.icon-clock::before { content: "🕐"; }
+.icon-time::before { content: "⏱️"; }
+.icon-history::before { content: "📜"; }
+
+/* Communication */
+.icon-phone::before { content: "📱"; }
+.icon-mail::before { content: "📧"; }
+.icon-email::before { content: "✉️"; }
+.icon-message::before { content: "💬"; }
+.icon-chat::before { content: "💭"; }
+
+/* Information & Help */
+.icon-info::before { content: "ℹ️"; }
+.icon-help::before { content: "❓"; }
+.icon-question::before { content: "❔"; }
+.icon-warning::before { content: "⚠️"; }
+.icon-alert::before { content: "🚨"; }
+.icon-error::before { content: "❌"; }
+
+/* Système */
+.icon-settings::before { content: "⚙️"; }
+.icon-config::before { content: "⚙️"; }
+.icon-tools::before { content: "🛠️"; }
+.icon-gear::before { content: "⚙️"; }
+.icon-logout::before { content: "🚪"; }
+.icon-login::before { content: "🔐"; }
+.icon-lock::before { content: "🔒"; }
+.icon-unlock::before { content: "🔓"; }
+.icon-key::before { content: "🔑"; }
+
+/* Recherche & Filtres */
+.icon-search::before { content: "🔍"; }
+.icon-filter::before { content: "🔽"; }
+.icon-sort::before { content: "↕️"; }
+
+/* Fichiers */
+.icon-document::before { content: "📄"; }
+.icon-pdf::before { content: "📕"; }
+.icon-file::before { content: "📄"; }
+.icon-download::before { content: "⬇️"; }
+.icon-upload::before { content: "⬆️"; }
+
+/* Média */
+.icon-image::before { content: "🖼️"; }
+.icon-photo::before { content: "📷"; }
+.icon-camera::before { content: "📷"; }
+
+/* Navigation */
+.icon-arrow-left::before { content: "◀"; }
+.icon-arrow-right::before { content: "▶"; }
+.icon-arrow-up::before { content: "▲"; }
+.icon-arrow-down::before { content: "▼"; }
+.icon-back::before { content: "←"; }
+.icon-forward::before { content: "→"; }
+
+/* Stock & Inventaire */
+.icon-box::before { content: "📦"; }
+.icon-inventory::before { content: "📊"; }
+.icon-stock::before { content: "📊"; }
+
+/* Tailles des icônes */
+.icon-sm::before { font-size: 0.85rem; }
+.icon-md::before { font-size: 1rem; }
+.icon-lg::before { font-size: 1.5rem; }
+.icon-xl::before { font-size: 2rem; }
+.icon-2x::before { font-size: 2rem; }
+.icon-3x::before { font-size: 3rem; }
+.icon-4x::before { font-size: 4rem; }
+.icon-5x::before { font-size: 5rem; }
+
+/* Animations */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.icon-spin::before {
+    animation: spin 1s linear infinite;
+    display: inline-block;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+.icon-pulse::before {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Couleurs des icônes */
+.icon-primary::before { color: #667eea; }
+.icon-success::before { color: #4caf50; }
+.icon-danger::before { color: #f44336; }
+.icon-warning::before { color: #ff9800; }
+.icon-info::before { color: #2196f3; }
+.icon-light::before { color: #eceff1; }
+.icon-dark::before { color: #263238; }
+.icon-white::before { color: white; }
+
+/* Intégration avec Bootstrap */
+.btn-icon {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn-icon::before {
+    margin: 0;
+}
+
+.badge-icon {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.nav-link-icon {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .icon-2x::before { font-size: 1.5rem; }
+    .icon-3x::before { font-size: 2rem; }
+    .icon-4x::before { font-size: 2.5rem; }
+    .icon-5x::before { font-size: 3rem; }
+}
